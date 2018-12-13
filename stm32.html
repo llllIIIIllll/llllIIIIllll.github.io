@@ -16,9 +16,17 @@
 </body>
     <h1>STM32</h1>
     <div class = "span">
-        <h2>ARM7：ARMv4架构，ARM9：ARMv5架构，ARM11：ARMv6架构，ARM-Cortex 系列：ARMv7架构。
+        <h4>
+            ARM7：ARMv4架构，ARM9：ARMv5架构，ARM11：ARMv6架构，ARM-Cortex 系列：ARMv7架构。
+        </h4>
+        <h4>
             ARM7没有MMU(内存管理单元)，只能叫做MCU（微控制器），不能运行诸如Linux、WinCE等这些现代的多用户多进程操作系统，因为运行这些系统需要MMU，才能给每个用户进程分配进程自己独立的地址空间。ucOS、ucLinux这些精简实时的RTOS不需要MMU，当然可以在ARM7上运行。
+        </h4>
+        <h4>
             ARM9、ARM11，是嵌入式CPU（处理器），带有MMU，可以运行诸如Linux等多用户多进程的操作系统，应用场合也不同于ARM7。
-            到了ARMv7架构的时候开始以Cortex来命名，并分成Cortex-A、Cortex-R、Cortex-M三个系列。三大系列分工明确：“A”系列面向尖端的基于虚拟内存的操作系统和用户应用；“R”系列针对实时系统；“M”系列对微控制器。简单的说Cortex-A系列是用于移动领域的CPU，Cortex-R和Cortex-M系列是用于实时控制领域的MCU。</h2>
+        </h4>
+        <h4>
+            到了ARMv7架构的时候开始以Cortex来命名，并分成Cortex-A、Cortex-R、Cortex-M三个系列。三大系列分工明确：“A”系列面向尖端的基于虚拟内存的操作系统和用户应用；“R”系列针对实时系统；“M”系列对微控制器。简单的说Cortex-A系列是用于移动领域的CPU，Cortex-R和Cortex-M系列是用于实时控制领域的MCU。
+        </h4>
     </div>
 </html>
